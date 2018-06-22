@@ -95,6 +95,9 @@ $(document).ready(function(){
     //Reset formulario
     $(this).get(0).reset();
 
+    $('.create__image .create__img').attr('src', 'assets/images/squared/uk.png');
+    $('.create__profile .create__img').attr('src', 'assets/images/squared/uk.png');
+
 	});
 
 
